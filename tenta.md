@@ -3,7 +3,7 @@
 ## week 1
 https://canvas.hu.nl/courses/20247/pages/week%201
 
-- PID + eindopdracht tldr
+### PID tldr
 
 ![alt-text](https://www.csimn.com/CSI_images/info/PIDforDummies_pid_controller1.png)
 
@@ -126,12 +126,18 @@ https://canvas.hu.nl/courses/20247/pages/week%202
 
 ## Fourier Tranformation
 
-colleges: 
+~~colleges: 
 https://youtu.be/dEBeVEYmDQI
 en 
 https://www.youtube.com/watch?v=_pkHloohdlk
+https://www.thefouriertransform.com/#introduction see this~~
 
-https://www.thefouriertransform.com/#introduction see this 
+KIJK ALEEN DIT : https://youtu.be/spUNpyF58BY DAN NAAR OPGAVES + FOURIER OEFEN CANVAS TENTAMEN, COLLEGES ZIJN KK
+
+
+enige wat idk is : *Maak signalen aan het tijdsdomein, bekijk ze in het frequentie domein, filter ze met je nieuwe filter (mediaan of FIR) functie en bekijk de uitkomst. Bekijk ook de DFT van de uitkomst.*
+ff kijken wat digital filtering is? fir?
+
 
 ## *lijkt er op dat je aleen hoeft de kijken naar diagrammen, niet naar rekenen , kijk naar opdrachten dit krijge we denk ook tentamen*  kijk ff met die mrb dft python file
 
@@ -165,6 +171,13 @@ https://canvas.hu.nl/courses/20247/pages/week%205
 ### CONDENSTATOREN = CAPACITORS
 zie marius:  Condensator_Z_AC_DC.pdf 32 paginas lmao
 tldr:
+
+tau seconden = ohm * fahrad
+tau = 63% constant, dus 2tau = (0.37 * 0.37 remaining = 14%)= 86 remaining
+
+
+lowpass = weerstand VOOR condensator
+hipass = weestand ACHTER condensator
 
 The capacitor is a component which has the ability or “capacity” to store energy in the form of an electrical charge producing a potential difference (Static Voltage) across its plates, much like a small rechargeable battery.
 
