@@ -1,3 +1,33 @@
+---
+title: 'MRB 2023'
+subtitle: '\textit{Smartphone Camera-based solution for identifying uniquely flashing IoT Light Fixtures}'
+author: 
+- '\textit{Student : } \textbf{Finn Fonteijn}, 1745799, finn.fonteijn@student.hu.nl'
+- '\textit{Praktijkbegeleider : } \textbf{Lennart Jensen}, lennart@ingy.nl'
+- '\textit{Docent Begeleider : } \textbf{Jan Jaap Kempenaar},  janjaap.kempenaar@hu.nl'
+date: 2023 Afstuderen Hogeschool Utrecht HBO-ICT Technische Informatica & Ingy B.V.
+institution: Hogeschool Utrecht
+geometry: margin=1.4cm
+header-includes:
+    - \usepackage[dutch]{babel}
+    - \usepackage{wrapfig}
+    - \usepackage{graphicx}
+    - \usepackage{lipsum}
+output:
+  pdf_document:
+    latex_engine: xelatex
+    toc: false 
+    toc_depth: 2
+    number_sections: false 
+    keep_tex:  true
+urlcolor: blue
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
 # Pendelum:
 
 ![img](img/2023-08-11-15-56-42.png)
