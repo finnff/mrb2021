@@ -27,6 +27,6 @@ knitr::opts_chunk$set(echo = FALSE)
 # Pendelum:
 
 
-```{r echo=FALSE, out.width='200%'}
+```{r echo=FALSE, out.width='00%'}
 knitr::include_graphics('img/2023-08-11-15-56-42.png')
 ```
