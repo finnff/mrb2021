@@ -1,7 +1,6 @@
 ---
 title: 'MRB 2023'
-author: 
-- '\textit{Student : } \textbf{Finn Fonteijn}, 1745799, finn.fonteijn@student.hu.nl'
+author: '\textit{Student : } \textbf{Finn Fonteijn}, 1745799, finn.fonteijn@student.hu.nl'
 date: 2023 Afstuderen Hogeschool Utrecht HBO-ICT Technische Informatica & Ingy B.V.
 institution: Hogeschool Utrecht
 geometry: margin=1.4cm
