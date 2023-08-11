@@ -20,13 +20,10 @@ urlcolor: blue
 ---
 
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
+
 
 # Pendelum:
 
 
-```{r echo=FALSE, out.width='60%'}
-knitr::include_graphics('img/2023-08-11-15-56-42.png')
-```
+
+\includegraphics[width=0\linewidth]{img/2023-08-11-15-56-42} 
