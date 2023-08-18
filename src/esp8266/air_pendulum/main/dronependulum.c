@@ -1,3 +1,4 @@
+#include "./nmLib/rotary.h"
 #include "driver/adc.h"
 #include "driver/gpio.h"
 #include "driver/pwm.h"
