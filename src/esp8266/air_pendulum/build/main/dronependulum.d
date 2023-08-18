@@ -1,10 +1,11 @@
 dronependulum.o: \
- /home/sga/cpp/mrb/src/esp8266/hello_world/main/dronependulum.c \
+ /home/sga/cpp/mrb/src/esp8266/air_pendulum/main/dronependulum.c \
+ /home/sga/cpp/mrb/src/esp8266/air_pendulum/main/./nmLib/rotary.h \
  /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/driver/adc.h \
  /home/sga/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h \
  /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/driver/gpio.h \
  /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
- /home/sga/cpp/mrb/src/esp8266/hello_world/build/include/sdkconfig.h \
+ /home/sga/cpp/mrb/src/esp8266/air_pendulum/build/include/sdkconfig.h \
  /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
  /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/pin_mux_register.h \
  /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
@@ -40,6 +41,8 @@ dronependulum.o: \
  /home/sga/ESP8266_RTOS_SDK/components/freertos/include/freertos/task.h \
  /home/sga/ESP8266_RTOS_SDK/components/freertos/include/freertos/private/list.h
 
+/home/sga/cpp/mrb/src/esp8266/air_pendulum/main/./nmLib/rotary.h:
+
 /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/driver/adc.h:
 
 /home/sga/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h:
@@ -48,7 +51,7 @@ dronependulum.o: \
 
 /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h:
 
-/home/sga/cpp/mrb/src/esp8266/hello_world/build/include/sdkconfig.h:
+/home/sga/cpp/mrb/src/esp8266/air_pendulum/build/include/sdkconfig.h:
 
 /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h:
 
@@ -117,4 +120,3 @@ dronependulum.o: \
 /home/sga/ESP8266_RTOS_SDK/components/freertos/include/freertos/task.h:
 
 /home/sga/ESP8266_RTOS_SDK/components/freertos/include/freertos/private/list.h:
-/home/sga/cpp/mrb/src/esp8266/hello_world/main/./dronependulum.c:

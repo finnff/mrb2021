@@ -4,7 +4,7 @@ event_send.o: \
  /home/sga/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h \
  /home/sga/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  /home/sga/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
- /home/sga/cpp/mrb/src/esp8266/hello_world/build/include/sdkconfig.h \
+ /home/sga/cpp/mrb/src/esp8266/air_pendulum/build/include/sdkconfig.h \
  /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -73,7 +73,7 @@ event_send.o: \
 
 /home/sga/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
-/home/sga/cpp/mrb/src/esp8266/hello_world/build/include/sdkconfig.h:
+/home/sga/cpp/mrb/src/esp8266/air_pendulum/build/include/sdkconfig.h:
 
 /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 

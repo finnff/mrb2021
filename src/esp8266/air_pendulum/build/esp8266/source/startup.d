@@ -1,6 +1,6 @@
 source/startup.o: \
  /home/sga/ESP8266_RTOS_SDK/components/esp8266/source/startup.c \
- /home/sga/cpp/mrb/src/esp8266/hello_world/build/include/sdkconfig.h \
+ /home/sga/cpp/mrb/src/esp8266/air_pendulum/build/include/sdkconfig.h \
  /home/sga/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs_flash.h \
  /home/sga/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs.h \
  /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/esp_attr.h \
@@ -86,7 +86,7 @@ source/startup.o: \
  /home/sga/ESP8266_RTOS_SDK/components/freertos/include/freertos/task.h \
  /home/sga/ESP8266_RTOS_SDK/components/newlib/platform_include/esp_newlib.h
 
-/home/sga/cpp/mrb/src/esp8266/hello_world/build/include/sdkconfig.h:
+/home/sga/cpp/mrb/src/esp8266/air_pendulum/build/include/sdkconfig.h:
 
 /home/sga/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs_flash.h:
 

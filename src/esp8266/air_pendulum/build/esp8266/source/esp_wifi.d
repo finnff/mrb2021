@@ -1,6 +1,6 @@
 source/esp_wifi.o: \
  /home/sga/ESP8266_RTOS_SDK/components/esp8266/source/esp_wifi.c \
- /home/sga/cpp/mrb/src/esp8266/hello_world/build/include/sdkconfig.h \
+ /home/sga/cpp/mrb/src/esp8266/air_pendulum/build/include/sdkconfig.h \
  /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/esp_libc.h \
  /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
@@ -76,7 +76,7 @@ source/esp_wifi.o: \
  /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/esp_wifi_crypto_types.h \
  /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/esp_aio.h
 
-/home/sga/cpp/mrb/src/esp8266/hello_world/build/include/sdkconfig.h:
+/home/sga/cpp/mrb/src/esp8266/air_pendulum/build/include/sdkconfig.h:
 
 /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/esp_libc.h:
 

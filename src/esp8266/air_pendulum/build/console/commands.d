@@ -1,6 +1,6 @@
 commands.o: /home/sga/ESP8266_RTOS_SDK/components/console/commands.c \
  /home/sga/ESP8266_RTOS_SDK/components/log/include/esp_log.h \
- /home/sga/cpp/mrb/src/esp8266/hello_world/build/include/sdkconfig.h \
+ /home/sga/cpp/mrb/src/esp8266/air_pendulum/build/include/sdkconfig.h \
  /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -14,7 +14,7 @@ commands.o: /home/sga/ESP8266_RTOS_SDK/components/console/commands.c \
 
 /home/sga/ESP8266_RTOS_SDK/components/log/include/esp_log.h:
 
-/home/sga/cpp/mrb/src/esp8266/hello_world/build/include/sdkconfig.h:
+/home/sga/cpp/mrb/src/esp8266/air_pendulum/build/include/sdkconfig.h:
 
 /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 

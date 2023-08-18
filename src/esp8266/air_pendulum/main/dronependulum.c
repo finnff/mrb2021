@@ -1,4 +1,3 @@
-#include "./nmLib/rotary.h"
 #include "driver/adc.h"
 #include "driver/gpio.h"
 #include "driver/pwm.h"
@@ -38,6 +37,9 @@ void set_motor_direction(bool forward)
 
 void app_main()
 {
+    // NodeRotary
+    rotarytest = rotary.setup(0, 5, 6, 7);
+
     // Initialize ADC
     adc_config_t adc_config;
     adc_config.mode = ADC_READ_TOUT_MODE;
