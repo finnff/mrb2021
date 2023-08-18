@@ -1,20 +1,15 @@
-hello_world_main.o: \
- /home/sga/cpp/mrb/src/esp8266/hello_world/main/hello_world_main.c \
+simplePOC.o: /home/sga/cpp/mrb/src/esp8266/hello_world/main/simplePOC.c \
  /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/driver/adc.h \
  /home/sga/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h \
- /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/driver/gpio.h \
- /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
- /home/sga/cpp/mrb/src/esp8266/hello_world/build/include/sdkconfig.h \
- /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
- /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/pin_mux_register.h \
- /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
- /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/gpio_register.h \
  /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/driver/pwm.h \
  /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/esp_system.h \
+ /home/sga/cpp/mrb/src/esp8266/hello_world/build/include/sdkconfig.h \
  /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h \
  /home/sga/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  /home/sga/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
  /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
+ /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
+ /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
  /home/sga/ESP8266_RTOS_SDK/components/freertos/include/freertos/private/projdefs.h \
  /home/sga/ESP8266_RTOS_SDK/components/freertos/include/freertos/private/portable.h \
  /home/sga/ESP8266_RTOS_SDK/components/freertos/include/freertos/private/deprecated_definitions.h \
@@ -44,23 +39,11 @@ hello_world_main.o: \
 
 /home/sga/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h:
 
-/home/sga/ESP8266_RTOS_SDK/components/esp8266/include/driver/gpio.h:
-
-/home/sga/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h:
-
-/home/sga/cpp/mrb/src/esp8266/hello_world/build/include/sdkconfig.h:
-
-/home/sga/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h:
-
-/home/sga/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/pin_mux_register.h:
-
-/home/sga/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h:
-
-/home/sga/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/gpio_register.h:
-
 /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/driver/pwm.h:
 
 /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/esp_system.h:
+
+/home/sga/cpp/mrb/src/esp8266/hello_world/build/include/sdkconfig.h:
 
 /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h:
 
@@ -69,6 +52,10 @@ hello_world_main.o: \
 /home/sga/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
 /home/sga/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
+
+/home/sga/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h:
+
+/home/sga/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h:
 
 /home/sga/ESP8266_RTOS_SDK/components/freertos/include/freertos/private/projdefs.h:
 
@@ -117,4 +104,4 @@ hello_world_main.o: \
 /home/sga/ESP8266_RTOS_SDK/components/freertos/include/freertos/task.h:
 
 /home/sga/ESP8266_RTOS_SDK/components/freertos/include/freertos/private/list.h:
-/home/sga/cpp/mrb/src/esp8266/hello_world/main/./hello_world_main.c:
+/home/sga/cpp/mrb/src/esp8266/hello_world/main/./simplePOC.c:
