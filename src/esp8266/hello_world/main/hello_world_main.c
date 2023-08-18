@@ -132,7 +132,7 @@ void app_main()
             printf("ADC Value: %d, MotorSpeed: %d, Direction: %s, Angle: %d.%02d,Angle "
                    "Range: [%d, %d]\n",
                 potValue, motor_speed, direction,
-                angle_int / 100, abs(angle_int) % 100,
+                angle_int, abs(angle_int) % 100,
                 angle_range_min,
                 angle_range_max);
 
