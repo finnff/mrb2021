@@ -28,6 +28,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 LEFT MOTOR side = 23.4g @ 50 cm
 
+https://nodemcu.readthedocs.io/en/release/modules/rotary/
+
+
+
+
 ```{r echo=FALSE, out.width='60%'}
 knitr::include_graphics('img/2023-08-11-15-56-42.png')
 ```
@@ -84,3 +89,5 @@ Stay Calm and Patient:
 
 If you're struggling with a joint, it's okay to take a break. Too much continuous heat can damage components.
 Remember, like all skills, the more you practice soldering, the better you'll get at it. Happy soldering!
+
+
