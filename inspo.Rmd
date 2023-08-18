@@ -26,7 +26,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Pendelum:
 
-LEFT MOTOR side
+LEFT MOTOR side = 23.4g
 
 ```{r echo=FALSE, out.width='60%'}
 knitr::include_graphics('img/2023-08-11-15-56-42.png')
