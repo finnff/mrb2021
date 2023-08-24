@@ -1,6 +1,7 @@
 #include <Arduino.h>
 /* #include "./rotaryencoderLib/Encoder.h" */
 #include "Encoder.h"
+#include "PotManager.h"
 
 // Define the GPIO pins for the L298N IN1 and IN2 for PWM
 #define MOTOR_IN1_PIN 32
@@ -25,6 +26,11 @@
 // Global variables
 // start rotary ROTARY_ENCODER
 //
+
+
+
+int SensitivityMultipliers[] = {0, 1, 10, 100};
+PotManager potManager(SensitivityMultipliers);
 
 Encoder myEncoder(ROTARY_ENCODER_A_PIN, ROTARY_ENCODER_B_PIN);
 long oldPosition = -999;
@@ -69,7 +75,8 @@ double PIDOutput = 0;
 
 int setPointAngle = 0;  // Desired setpoint in terms of angle (-150 to 150)  AKA DEFFAULT SWING
 const int ROTARY_ENCODER_MAX = 100;
-const int MOTOR_SPEED_MAX = 4095;
+/* const int MOTOR_SPEED_MAX = 4095; */
+const int MOTOR_SPEED_MAX = 2000;
 const int PID_MIN_OUTPUT = 2000;
 
 // Function to set motor direction
@@ -100,6 +107,8 @@ float ADCtoAngle(uint16_t adcValue) {
 
 void setup()
 {
+
+    potManager.begin();
     Serial.begin(9600);
 
 
@@ -116,8 +125,8 @@ void setup()
     // so the following lines are a common way of setting the PWM frequency for pins 5 and 6
     analogWrite(MOTOR_IN1_PIN, 0);
     analogWrite(MOTOR_IN2_PIN, 0);
-    analogWriteResolution(12); // 0 to 4095, where 4095 is 100% duty cycle
-    Serial.println("Arduino DUE Started");
+    /* analogWriteResolution(12); // 0 to 4095, where 4095 is 100% duty cycle */
+    /* Serial.println("Arduino DUE Started"); */
 
     // Calibration logic (Adapted from the old code)
     uint16_t potValue = analogRead(A1);
@@ -151,6 +160,8 @@ void setup()
 
 void loop()
 {
+
+    potManager.updateAndDisplay();
     // 1. Read the Input
     long newPosition = myEncoder.read();
     potValue = analogRead(A1);
