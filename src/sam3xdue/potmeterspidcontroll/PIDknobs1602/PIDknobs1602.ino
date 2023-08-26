@@ -65,7 +65,7 @@ lcd.print(": ");
 void loop() {
   int sensitivityLevels[4] = {0, 0, 0,1};
 
-  for (int i = 0; i < 6; i += 2) {
+  for (int i = 0; i < 8; i += 2) {
     bool s1 = pcf8574.read(i);
     bool s2 = pcf8574.read(i + 1);
     sensitivityLevels[i / 2] = mapSensitivity(s1, s2);
@@ -78,12 +78,7 @@ void loop() {
   
   for (int i = 0; i < 4; i++) {
     MappedPotValues[i] = map(analogRead(potPins[i]), 0, 1023, 0, 100);
-    if (i < 3) {
-      scaledPotValues[i] = MappedPotValues[i] * multipliers[sensitivityLevels[i]];
-    } else {
-      scaledPotValues[i] = MappedPotValues[i];  // For 'X' as it has no pair
-    }
-    
+    scaledPotValues[i] = MappedPotValues[i] * multipliers[sensitivityLevels[i]];
     // Print values to Serial
     Serial.print(names[i]);
     Serial.print(": ");
@@ -109,7 +104,7 @@ void loop() {
   lcd.setCursor(2, 1);  // Bottom left value
   lcd.print(MappedPotValues[2]);
   lcd.setCursor(6, 1);  
-  lcd.print(sensitivityLevels[3]);
+  lcd.print(sensitivityLevels[2]);
   lcd.print("|");
 
 
