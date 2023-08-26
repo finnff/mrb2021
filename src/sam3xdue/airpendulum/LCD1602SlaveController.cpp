@@ -31,6 +31,15 @@ void LCD1602SlaveController::update1602slave(const char* e, const char* f, const
     Wire.endTransmission();
 }
 
+void padString(char* str, size_t size)
+{
+    size_t len = strlen(str);
+    for (size_t i = len; i < size; i++) {
+        str[i] = ' ';
+    }
+    str[size] = '\0'; // Null-terminate the padded string
+}
+
 void LCD1602SlaveController::update1602slave(int e, int f, int g, int h)
 {
     char e_str[5], f_str[5], g_str[5], h_str[5];
@@ -40,7 +49,10 @@ void LCD1602SlaveController::update1602slave(int e, int f, int g, int h)
     snprintf(g_str, sizeof(g_str), "%d", g);
     snprintf(h_str, sizeof(h_str), "%d", h);
 
+    padString(e_str, 4);
+    padString(f_str, 4);
+    padString(g_str, 4);
+    padString(h_str, 4);
+
     update1602slave(e_str, f_str, g_str, h_str);
 }
-
-// ... rest of the file ...

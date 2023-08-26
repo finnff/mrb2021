@@ -14,6 +14,7 @@ public:
     void begin();
     void updateAndDisplay();
     void getScaledValues(int result[4]);
+    void debug_print();
 
 private:
     int mapSensitivity(bool s1, bool s2);
