@@ -4,7 +4,7 @@
 PotManager::PotManager(int* LCDPotInput, int multipliers[])
 {
     this->LCDPotInput = LCDPotInput;
-    for (int i = 0; i < 4; i++) {
+    for (int i = 0; i < 3; i++) {
         this->multipliers[i] = multipliers[i];
     }
 }
@@ -46,7 +46,7 @@ void PotManager::debug_print()
 
     // Print Multiplier values
     Serial.print("Multipliers: ");
-    for (int i = 0; i < 4; ++i) {
+    for (int i = 0; i < 3; ++i) {
         Serial.print(multipliers[i]);
         Serial.print(' ');
     }
@@ -87,7 +87,7 @@ void PotManager::updateAndDisplay()
 
     for (int i = 0; i < 4; i++) {
         MappedPotValues[i] = map(analogRead(potPins[i]), 0, 1023, 0, 100);
-        scaledPotValues[i] = (i < 3) ? MappedPotValues[i] * multipliers[sensitivityLevels[i]] : analogRead(potPins[i]);
+        scaledPotValues[i] = (i < 3) ? MappedPotValues[i] * multipliers[i] : analogRead(potPins[i]);
         // return raw adc  for max res
 
         /* Serial.print(names[i]); */

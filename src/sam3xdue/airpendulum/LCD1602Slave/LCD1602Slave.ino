@@ -18,7 +18,7 @@ void setup() {
   lcd.print("Addr: 0x");
   lcd.print(String(SLAVE_ADDRESS, HEX));
 
-  Serial.println("Slave setup done. Waiting for I2C signals.");
+  /* Serial.println("Slave setup done. Waiting for I2C signals."); */
 }
 
 void loop() {
@@ -33,8 +33,8 @@ void receiveEvent(int numBytes) {
     inited=true;
     delay(1000);
     }
-  Serial.print("Received command: ");
-  Serial.println(command);
+  /* Serial.print("Received command: "); */
+  /* Serial.println(command); */
 
   if (command == 'I') { // 'I' for init4
     lcd.clear();
@@ -58,7 +58,7 @@ void receiveEvent(int numBytes) {
 }
 
 void init4(const char* a, const char* b, const char* c, const char* d) {
-  Serial.println("Initializing LCD...");
+  /* Serial.println("Initializing LCD..."); */
   
   lcd.begin(16, 2);  // Initialize the LCD for 16x2 characters
 
@@ -74,12 +74,12 @@ void init4(const char* a, const char* b, const char* c, const char* d) {
   lcd.setCursor(8, 1); // Set cursor to ninth position of second row
   lcd.print(d);
 
-  Serial.println("Initialization done.");
+  /* Serial.println("Initialization done."); */
 }
 
 /* void update4(const int* e, const int* f, const int* g, const int* h) { */
 void update4(const char* e, const char* f, const char* g, const char* h) {
-  Serial.println("Updating LCD...");
+  /* Serial.println("Updating LCD..."); */
 
   lcd.setCursor(3, 0); // Set cursor to fourth position of first row
   lcd.print(e);
@@ -93,5 +93,5 @@ void update4(const char* e, const char* f, const char* g, const char* h) {
   lcd.setCursor(11, 1); // Set cursor to twelfth position of second row
   lcd.print(h);
 
-  Serial.println("Update done.");
+  /* Serial.println("Update done."); */
 }
